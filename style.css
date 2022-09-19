@@ -1,0 +1,47 @@
+@charset "UTF8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color:white;
+    text-align: center;
+}
+body{
+    background: rgb(0, 110, 255);
+    font: normal, arial;
+}
+
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+#msg{
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
