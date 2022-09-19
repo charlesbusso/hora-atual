@@ -4,6 +4,7 @@
     padding: 0;
 }
 header{
+    width: 500px;
     color:white;
     text-align: center;
 }
@@ -19,9 +20,9 @@ section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
+    text-align: center;
 }
 div{
     text-align: center;
@@ -33,6 +34,7 @@ div{
     text-transform: uppercase;
 }
 footer{
+    width: 500px;
     color: white;
     text-align: center;
     font-style: italic;
