@@ -10,6 +10,8 @@ header{
 body{
     background: rgb(0, 110, 255);
     font: normal, arial;
+    max-width:1300px;
+    min-width: 300px;
 }
 
 
@@ -44,4 +46,10 @@ footer a{
 a:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+@media(max-width: 700px){
+display: flex;
+flex-direction: colunm;
+align-itens: center;
+text-align: center;
 }
