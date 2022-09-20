@@ -1,10 +1,10 @@
 function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
-    var data = new Date()
-    var hr = date.getHours()
-    var min = date.getMinutes()
-    Var s = date.getSeconds()
+    var data = new Date();
+    var hr = date.getHours();
+    var min = date.getMinutes();
+    Var s = date.getSeconds();
 
    var tempo_total = hr + ":" + min + ":" + s;
    msg.innerHTML = tempo_total;
