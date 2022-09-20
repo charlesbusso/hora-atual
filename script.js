@@ -2,11 +2,11 @@ function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-    var hora = date.getHours()
-    var minuto = date.getMinutes()
-    Var segundo = date.getSeconds()
+    var hr = date.getHours()
+    var min = date.getMinutes()
+    Var s = date.getSeconds()
 
-   var tempo_total = hora + ":" + minuto ":" + segundo;
+   var tempo_total = hr + ":" + min ":" + s;
    tempo.innerHTML = tempo_total;
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
