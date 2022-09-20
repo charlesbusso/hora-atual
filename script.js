@@ -1,5 +1,5 @@
 function relogio() {
-    var msg = window.document.getElementById('msg')
+    var tempo = window.document.getElementById('relogio')
     var img = window.document.getElementById('imagem')
     var data = new Date();
     var hr = date.getHours();
@@ -8,6 +8,8 @@ function relogio() {
 
    var tempo_total = hr + ":" + min + ":" + s;
    msg.innerHTML = tempo_total;
+
+   setInterval(relogio,500)
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
         document.body.style.background = '#e2cd9f'
