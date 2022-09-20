@@ -6,8 +6,8 @@ function carregar() {
     var min = date.getMinutes()
     Var s = date.getSeconds()
 
-   var tempo_total = hr + ":" + min ":" + s;
-   tempo.innerHTML = tempo_total;
+   var tempo_total = hr + ":" + min + ":" + s;
+   msg.innerHTML = tempo_total;
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
         document.body.style.background = '#e2cd9f'
