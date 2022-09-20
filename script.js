@@ -2,9 +2,9 @@ function relogio() {
     var tempo = window.document.getElementById('relogio')
     var img = window.document.getElementById('imagem')
     var data = new Date();
-    var hr = date.getHours();
-    var min = date.getMinutes();
-    Var s = date.getSeconds();
+    var hr = data.getHours();
+    var min = data.getMinutes();
+    Var s = data.getSeconds();
 
    var tempo_total = hr + ":" + min + ":" + s;
    tempo.innerHTML = tempo_total;
