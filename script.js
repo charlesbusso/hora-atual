@@ -9,7 +9,6 @@ function relogio() {
    var tempo_total = hr + ":" + min + ":" + s;
    msg.innerHTML = tempo_total;
 
-   setInterval(Relogio,500);
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
         document.body.style.background = '#e2cd9f'
@@ -30,5 +29,6 @@ function relogio() {
         img.src = 'imagens/noite.jpg'
         document.body.style.background = '#515154'
     }
+      setInterval(Relogio,500);
 }
 
