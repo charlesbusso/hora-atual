@@ -2,9 +2,9 @@ function carregar() {
     var msg= window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-    var hora = data.getHours();
-    var minuto = data.getMinutes();
-    Var segundo = data.getSeconds();
+    var hora = date.getHours()
+    var minuto = date.getMinutes()
+    Var segundo = date.getSeconds()
 
    var tempo_total = hora + ":" + minuto ":" + segundo;
    msg.innerHTML = tempo_total;
