@@ -1,5 +1,5 @@
 function carregar() {
-    var msg= window.document.getElementById('msg')
+    var tempo = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = date.getHours()
@@ -7,7 +7,7 @@ function carregar() {
     Var segundo = date.getSeconds()
 
    var tempo_total = hora + ":" + minuto ":" + segundo;
-   msg.innerHTML = tempo_total;
+   tempo.innerHTML = tempo_total;
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
         document.body.style.background = '#e2cd9f'
