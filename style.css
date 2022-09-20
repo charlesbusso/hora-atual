@@ -28,8 +28,9 @@ div{
     text-align: center;
     padding: 8px;
 }
-#msg{
-    color: black;
+#relogio {
+    font-size: 300px;
+    color: red;
     text-decoration: underline;
     text-transform: uppercase;
 }
