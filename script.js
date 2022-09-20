@@ -7,7 +7,7 @@ function relogio() {
     Var s = date.getSeconds();
 
    var tempo_total = hr + ":" + min + ":" + s;
-   msg.innerHTML = tempo_total;
+   tempo.innerHTML = tempo_total;
 
     if (hora >= 0 && hora < 6) {
         // BOM DIA !!
