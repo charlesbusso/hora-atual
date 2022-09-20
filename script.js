@@ -1,5 +1,5 @@
 function carregar() {
-    var tempo = window.document.getElementById('msg')
+    var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = date.getHours()
