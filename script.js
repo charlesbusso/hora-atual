@@ -29,6 +29,7 @@ function relogio() {
         img.src = 'imagens/noite.jpg'
         document.body.style.background = '#515154'
     }
-      setInterval(Relogio,500);
 }
+      setInterval(Relogio,500);
+
 
