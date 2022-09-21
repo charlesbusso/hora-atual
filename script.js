@@ -7,7 +7,7 @@ function Carregar() {
     var s = data.getSeconds();    
     
 
-  var tempo_total = hr + ":" + min +":" + s +   "horas";
+  var tempo_total = hr + ":" + min +":" + s +  "  horas";
   
   
   tempo.innerHTML = tempo_total;
