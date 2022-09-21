@@ -4,37 +4,49 @@
     padding: 0;
 }
 header{
+    width: 500px;
     color:white;
     text-align: center;
+    margin: auto;
 }
 body{
     background: rgb(0, 110, 255);
     font: normal, arial;
+    max-width:1200px;
+    min-width: 300px;
 }
 
 
 section{
+    width: 400px;
     background: white;
     border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
+    padding: 10px;
     box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin: auto;
 }
 div{
     text-align: center;
     padding: 8px;
 }
-#msg{
-    color: black;
+#msg {
+    font-size: 1.5rem;
+    color: red;
     text-decoration: underline;
     text-transform: uppercase;
 }
 footer{
+    width: 400px;
+    height: 300px;
     color: white;
     text-align: center;
     font-style: italic;
     font-size: 17px;
+    margin: auto;
+}
+footer p{
+    color: white;
 }
 
 footer a{
