@@ -1,4 +1,4 @@
-function relogio() {
+function carregar() {
     var tempo = window.document.getElementById('relogio')
     var img = window.document.getElementById('imagem')
     var data = new Date();
