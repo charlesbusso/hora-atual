@@ -48,11 +48,13 @@ footer{
 }
 footer p{
     color: white;
+    font-size: 1.1rem;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    
 }
 a:hover{
     cursor: pointer;
