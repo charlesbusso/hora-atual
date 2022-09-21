@@ -38,6 +38,7 @@ div{
     text-transform: uppercase;
 }
 footer{
+    padding-top: 35px;
     width: 400px;
     height: 300px;
     color: white;
