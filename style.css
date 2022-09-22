@@ -14,10 +14,7 @@ body{
     font: normal, arial;
     max-width:1200px;
     min-width: 300px;
-
     margin: auto;
-    
-
     text-align: center;
 }
 
@@ -29,6 +26,7 @@ section{
     padding: 10px;
     box-shadow: 5px 5px 10px black;
     text-align: center;
+    margin: auto;
     
 }
 
@@ -99,7 +97,7 @@ picture img{
     width: 250px;
     height: 180px;
 }
-@media(max-width: 700px){
+@media(max-width: 800px){
     picture ul{
         display: flex;
         flex-direction: column;
