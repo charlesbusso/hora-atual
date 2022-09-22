@@ -20,7 +20,9 @@ body{
 
 
 section{
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     background: white;
     border-radius: 10px;
     padding: 10px;
