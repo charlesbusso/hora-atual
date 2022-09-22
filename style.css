@@ -1,7 +1,7 @@
 @charset "UTF8";
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     width: 500px;
@@ -15,6 +15,7 @@ body{
     max-width:1200px;
     min-width: 300px;
     margin: auto;
+    
 }
 
 
@@ -27,15 +28,87 @@ section{
     text-align: center;
     margin: auto;
 }
-div{
-    text-align: center;
-    padding: 8px;
-}
+
 #msg {
     font-size: 1.5rem;
     color: red;
     text-decoration: underline;
     text-transform: uppercase;
+}
+picture{
+    padding-top: 50px;
+    max-width: 1200px;
+        
+}
+picture h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 2.5rem;
+    
+    
+}
+
+picture ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+picture li{
+    padding-top: 15px;
+    padding-right: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.manha{
+    width: 250px;
+    height: 300px;
+    background-color: #CAB8A1;
+}
+.madrugada{
+    width: 250px;
+    height: 300px;
+    background-color: #023059;
+}
+.meio{
+    width: 250px;
+    height: 300px;
+    background-color:#F2D230 ;
+}
+.tarde{
+    width: 250px;
+    height: 300px;
+    background-color: #D99F59;
+}
+.noite{
+    padding-top: 15px;
+    width: 250px;
+    height: 300px;
+    background-color: #515154;
+}
+picture img{
+    padding: 15px;
+    width: 250px;
+    height: 180px;
+}
+@media(max-width: 700px){
+    picture ul{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+    picture li{
+        padding: 15px;
+        margin-top: 20px;
+    }
 }
 footer{
     padding-top: 35px;
@@ -54,6 +127,9 @@ footer p{
 footer a{
     color: white;
     text-decoration: none;
+}
+footer li i{
+    font-size: 3rem;
 }
 a:hover{
     cursor: pointer;
