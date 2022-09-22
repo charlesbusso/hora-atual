@@ -14,19 +14,22 @@ body{
     font: normal, arial;
     max-width:1200px;
     min-width: 300px;
+
     margin: auto;
     
+
+    text-align: center;
 }
 
 
 section{
-    width: 400px;
+    width: 500px;
     background: white;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 5px 10px black;
     text-align: center;
-    margin: auto;
+    
 }
 
 #msg {
@@ -112,21 +115,22 @@ picture img{
 }
 footer{
     padding-top: 35px;
-    width: 400px;
+    width: 500px;
     height: 300px;
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 17px;
-    margin: auto;
+    
 }
 footer p{
     color: white;
+    font-size: 1.1rem;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    
 }
 footer li i{
     font-size: 3rem;
