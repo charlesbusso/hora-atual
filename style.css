@@ -37,8 +37,11 @@ section{
     text-transform: uppercase;
 }
 picture{
+    display: flex;
+    align-itens: center;
     padding-top: 50px;
     max-width: 1200px;
+    min-width: 300px;
         
 }
 picture h1{
