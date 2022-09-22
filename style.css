@@ -5,7 +5,7 @@
     padding: 0px;
 }
 header{
-    width: 500px;
+    width: 100%;
     color:white;
     text-align: center;
     margin: auto;
@@ -13,8 +13,7 @@ header{
 body{
     background: rgb(0, 110, 255);
     font: normal, arial;
-    max-width:1200px;
-    min-width: 300px;
+    width: 100%;
     text-align: center;
 }
 
@@ -41,7 +40,7 @@ section{
     text-transform: uppercase;
 }
 picture{
-    
+    width: 100%;
     padding-top: 50px;
     max-width: 1200px;
         
