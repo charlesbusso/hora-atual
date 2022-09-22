@@ -38,7 +38,7 @@ section{
 }
 picture{
     display: flex;
-    align-itens: center;
+    align-items: center;
     padding-top: 50px;
     max-width: 1200px;
     min-width: 300px;
