@@ -13,7 +13,7 @@ body{
     font: normal, arial;
     max-width: 1200px;
     min-width: 300px;
-    text-align: center;
+    position: relative;
 }
 
 
@@ -116,6 +116,10 @@ picture img{
         margin-top: 20px;
         text-align: center;
     }
+    Picture {
+        display: flex;
+        align-items: center;
+        text-align: center;
 }
 footer{
     display: flex;
