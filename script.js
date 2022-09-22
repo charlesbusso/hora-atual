@@ -16,7 +16,7 @@ function Carregar() {
     if (hr >= 0 && hr < 6) {
         // BOM DIA !!
         document.body.style.background = '#023059'
-        img.scr = 'imagens/madrugada.jpg'
+        img.src = 'imagens/madrugada.jpg'
         
     } else if (hr >=6 && hr < 12){
     
