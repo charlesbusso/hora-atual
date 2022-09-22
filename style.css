@@ -1,9 +1,5 @@
 @charset "UTF8";
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
+
 header{
     color:white;
     text-align: center;
@@ -27,6 +23,7 @@ section{
     box-shadow: 5px 5px 10px black;
     text-align: center;
     align-items: center;
+    width: 100vh;
 
     
 }
@@ -39,6 +36,7 @@ section{
 }
 picture{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding-top: 50px;
     max-width: 1200px;
