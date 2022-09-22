@@ -8,10 +8,8 @@ header{
     width: 100%;
     color:white;
     text-align: center;
-    margin: auto;
 }
 body{
-    margin: auto;
     background: rgb(0, 110, 255);
     font: normal, arial;
     width: 100%;
