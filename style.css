@@ -27,7 +27,6 @@ section{
     box-shadow: 5px 5px 10px black;
     text-align: center;
     align-items: center;
-    display: inline-block;
 
     
 }
@@ -62,7 +61,6 @@ picture ul{
     
 }
 picture li{
-    
     padding-top: 15px;
     padding-right: 5px;
     color: white;
@@ -102,7 +100,7 @@ picture img{
     width: 250px;
     height: 180px;
 }
-@media(max-width: 800px){
+@media(max-width: 700px){
     picture ul{
         display: flex;
         flex-direction: column;
@@ -112,6 +110,7 @@ picture img{
         
     }
     picture li{
+        display: flex;
         align-items: center;
         padding: 15px;
         margin-top: 20px;
