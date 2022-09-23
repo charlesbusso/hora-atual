@@ -41,7 +41,7 @@ picture{
     padding-top: 50px;
     max-width: 1200px;
     min-width: 300px;
-    padding-rigth:10px;
+    margin-right:10px;
         
 }
 picture h1{
@@ -55,7 +55,7 @@ picture h1{
 }
 
 picture ul{
-    padding-rigth: 15px;
+    margin-right: 15px;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -64,7 +64,7 @@ picture ul{
 }
 picture li{
     padding-top: 25px;
-    padding-right: 15px;
+    margin-right: 15px;
     color: white;
     display: flex;
     justify-content: space-around;
