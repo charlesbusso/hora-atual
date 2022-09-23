@@ -55,6 +55,7 @@ picture h1{
 }
 
 picture ul{
+    padding-rigth: 15px;
     align-items: center;
     display: flex;
     justify-content: space-around;
