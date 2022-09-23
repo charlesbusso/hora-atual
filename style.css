@@ -69,6 +69,7 @@ picture li{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    background-position: center;
 }
 .manha{
     width: 300px;
