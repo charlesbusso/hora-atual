@@ -3,7 +3,7 @@
 header{
     color:white;
     text-align: center;
-    width: 100vh;
+    width: 100%;
 }
 body{
     background: rgb(0, 110, 255);
@@ -15,7 +15,6 @@ body{
 
 
 section{
-    position: relative;
     display: flex;
     flex-direction: column;
     background: white;
@@ -24,7 +23,7 @@ section{
     box-shadow: 5px 5px 10px black;
     text-align: center;
     align-items: center;
-    width: 100vh;
+    width: 100%;
 
     
 }
