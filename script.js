@@ -6,7 +6,8 @@ function Carregar() {
     var min = data.getMinutes();
     var s = data.getSeconds();    
     
-
+     if (hr < 10) hr = '0' + hr;
+    
   var tempo_total = hr + ":" + min +":" + s +  "  horas";
   
   
