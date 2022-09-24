@@ -12,7 +12,7 @@ function Carregar() {
 
      if (s < 10) s = '0' + s;
     
-  var tempo_total = hr + ":" + min +":" + s +  "  horas";
+  var tempo_total = hr + ":" + min +":" + s;
   
   
   tempo.innerHTML = tempo_total;
