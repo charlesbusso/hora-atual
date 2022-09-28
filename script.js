@@ -20,6 +20,7 @@ const img = document.getElementById('imagem');
       if (min < 10) min = '0' + min;
       if (s < 10) s = '0' + s;
 
+
       horas.textContent = hr;
       minutos.textContent = min;
       segundos.textContent = s;
