@@ -206,6 +206,7 @@ footer a{
     
 }
 footer li i{
+    margin-left: 10px;
     font-size: 3rem;
 }
 a:hover{
