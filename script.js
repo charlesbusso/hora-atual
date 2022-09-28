@@ -1,24 +1,32 @@
-function Carregar() {
-    var tempo = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
-    var data = new Date();
-    var hr = data.getHours();
-    var min = data.getMinutes();
-    var s = data.getSeconds();    
-    
-     if (hr < 10) hr = '0' + hr;
-     
-     if (min < 10) min = '0' + min;
+function carregar(){ 
+const horas = document.getElementById('horas');
+const minutos = document.getElementById('minutos');
+const segundos = document.getElementById('segundos');
+const img = document.getElementById('imagem');
 
-     if (s < 10) s = '0' + s;
-    
-  var tempo_total = hr + ":" + min +":" + s;
+
+
+
   
-  
-  tempo.innerHTML = tempo_total;
- 
-  
-    if (hr >= 0 && hr < 6) {
+  const relogio = setInterval(function time() {
+      let dateToday =new Date();
+      let hr = dateToday.getHours();
+      let min = dateToday.getMinutes();
+      let s = dateToday.getSeconds();
+      
+      
+
+      if (hr < 10) hr = '0' + hr;
+      if (min < 10) min = '0' + min;
+      if (s < 10) s = '0' + s;
+
+      horas.textContent = hr;
+      minutos.textContent = min;
+      segundos.textContent = s;
+      
+     
+
+   if (hr >= 0 && hr < 6) {
         // BOM DIA !!
         document.body.style.background = '#023059'
         img.src = 'imagens/madrugada.jpg'
@@ -36,8 +44,8 @@ function Carregar() {
     }   
 
         else if (hr >= 16 && hr <18){
-            img.src = 'imagens/tardezinha.png'
-            document.body.style.background = '#D99F59'
+         img.src = 'imagens/tardezinha.png'
+         document.body.style.background = '#D99F59'
         }
         
     else {
@@ -45,8 +53,15 @@ function Carregar() {
         img.src = 'imagens/noite.jpg'
         document.body.style.background = '#515154'
     }
-  }
-  setInterval(Carregar,500);
+})
+}
+
+
+  
+ 
+  
+   
+
 
 
     
