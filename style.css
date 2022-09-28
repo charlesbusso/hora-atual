@@ -55,7 +55,7 @@ body{
 
 }
 .relogio div{
-    height: 120px;
+    height: 100px;
     width: 120px;
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@ picture img{
         background-position: center;}
 }
 footer{
-    margin-left: 20px;
+    margin-left: 13px;
     display: flex;
     align-items: center;
     flex-direction: column;
