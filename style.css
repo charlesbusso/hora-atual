@@ -198,6 +198,7 @@ footer{
 footer p{
     color: white;
     font-size: 1.1rem;
+    margin-top: 10px;
 }
 
 footer a{
