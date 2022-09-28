@@ -49,7 +49,7 @@ body{
 }
 @media(max-width: 700px){
     
-    header{width: 400px; align-items: center; text-align: center; margin-left: 30px; }
+    header{width: 350px; align-items: center; text-align: center; margin-left: 50px; }
     .relogio div{ align-items: center; justify-content: center;}
 }
 .relogio div{
