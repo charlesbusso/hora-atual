@@ -50,7 +50,8 @@ body{
 @media(max-width: 700px){
     
     header{width: 350px; align-items: center; text-align: center; margin-left: 50px; }
-    .relogio div{ align-items: center; justify-content: center;}
+    
+
 }
 .relogio div{
     height: 120px;
@@ -132,7 +133,7 @@ picture li{
     background-color:#F2D230 ;
 }
 .tarde{
-    width : 300px;
+    width : 250px;
     height: 300px;
     background-color: #D99F59;
 }
@@ -164,7 +165,9 @@ picture img{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 15px;}
+        margin-top: 15px;
+        margin-left: 60px;
+        }
     picture li{
         display: flex;
         align-items: center;
@@ -176,7 +179,8 @@ picture img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;}
+        text-align: center;
+        background-position: center;}
 }
 footer{
     display: flex;
