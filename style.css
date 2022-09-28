@@ -184,7 +184,7 @@ picture img{
         background-position: center;}
 }
 footer{
-    margin-left: 40px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
