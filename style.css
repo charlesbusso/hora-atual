@@ -122,33 +122,37 @@ picture li{
     width: 250px;
     height: 300px;
     background-color: #CAB8A1;
+    border-radius: 10px;
 }
 .madrugada{
     width: 250px;
     height: 300px;
     background-color: #023059;
+    border-radius: 10px;
 }
 .meio{
     width: 250px;
     height: 300px;
     background-color:#F2D230 ;
+    border-radius: 10px;
 }
 .tarde{
     width : 250px;
     height: 300px;
     background-color: #D99F59;
+    border-radius: 10px;
 }
 .noite{
     width: 250px;
     padding-top: 15px;
     height: 300px;
     background-color: #515154;
+    border-radius: 10px;
 }
 picture img{
     padding: 15px;
     width: 250px;
     height: 180px;
-    border-radius: 10px;
 }
 @media(max-width: 700px){
     .relogio{
