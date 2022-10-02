@@ -32,6 +32,8 @@ body{
     margin-top: 25px;
     width: 300px;
     border-radius: 10px;
+}
+#foto {
     overflow: hidden;
 }
 
